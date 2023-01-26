@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+
+    background: #0D192C;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    max-width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div {
+    background-color: #15263F;
+    border-radius: 15px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h1 {
+    color: White;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    height: 28px;
+    width: 302px;
+    left: 24px;
+    top: 350px;
+    border-radius: nullpx;
+
+}
+
+p {
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    height: 52px;
+    width: 302px;
+    left: 24px;
+    top: 394px;
+    border-radius: nullpx;
+    margin-top: 0px;
+}
+
+div {
+    font-family: 'Outfit', sans-serif;
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.eterium{
+  font-size:16px;
+  position:absolute;
+  margin-left: -150px;
+  margin-top: -35px;
+}
+
+.clock{
+    font-size:16px;
+    color: #8BACD9;
+    position: absolute;
+    margin-left:40px ;
+    margin-top: -35px;
+}
+
+hr{
+    width:302px;
+    height:1px;
+    background-color:#2E405A;
+    border:none; 
+    position:absolute;
+    left: 0px;
+    top: 514px;
+    bottom: 81px;
+    border-radius: 0px;
+    margin-left: 615px;
+    margin-top: 70px;
+
+
+}
+
+.photo{
+    position:absolute;
+    width: 33px;
+    height:33px;
+    margin-left: 0px;
+    margin-top: 455px;
+    
+}
+
+.phototext{
+    color:#8BACD9;
+    position:absolute;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top:  460px;
+}
+
+.phototext2{
+  color:white;
+  position: absolute;
+  margin-left:140px;
+  margin-top:460px;
+
+}
+
