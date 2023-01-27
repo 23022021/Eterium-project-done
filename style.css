@@ -1,33 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 body {
-
     background: #0D192C;
     font-family: 'Outfit', sans-serif;
     height: 100vh;
     max-width: 350px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
+    
 
 }
 
-div {
+{box-sizing: border-box;}
+
+.card-content{  
+    height: 546px;
+    width: 300px;
+    border-radius: 15px;
     background-color: #15263F;
     border-radius: 15px;
     padding: 24px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    margin-top: 50px;;
 }
 
 
-img {
-    max-width: 100%;
+
+
+.pic1 {
+    display: block;
+    max-width:100%;
+    border-radius: 8px;
+    margin-top: -30px;
+    height: 302px;
+    width: 302px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+    margin-top:0px; 
+}
+
+
+.overlay {
+    
+    position: absolute;
+    margin-top: -300px;
+    margin-left:0px;
+    background: #00FFF8;
+    transition: .5s ease;
+    opacity: 0;
+    height:302px;
+    width:302px;
     border-radius: 8px;
 }
+.eye{
+    position: absolute;
+    margin-top:125px;
+    margin-left:125px;
+}
 
-h1 {
+.Eterium:hover .overlay{
+    opacity: 0.5; 
+}
+
+
+
+
+.font {
+    display: block;
     color: White;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
@@ -36,10 +74,18 @@ h1 {
     height: 28px;
     width: 302px;
     left: 24px;
-    top: 350px;
+    margin-top: 20px;
     border-radius: nullpx;
-
+    opacity: 1;
 }
+
+.font:hover {
+    opacity: 1;
+    color: #00FFF8;
+    cursor:pointer;
+}
+
+
 
 p {
     color: #8BACD9;
@@ -50,7 +96,7 @@ p {
     left: 24px;
     top: 394px;
     border-radius: nullpx;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 div {
@@ -64,16 +110,16 @@ div {
 .eterium{
   font-size:16px;
   position:absolute;
-  margin-left: -150px;
-  margin-top: -35px;
+  margin-left: 5px;
+  margin-top: 0px;
 }
 
 .clock{
     font-size:16px;
     color: #8BACD9;
     position: absolute;
-    margin-left:40px ;
-    margin-top: -35px;
+    margin-left: 180px ;
+    margin-top: 0px;
 }
 
 hr{
@@ -86,8 +132,8 @@ hr{
     top: 514px;
     bottom: 81px;
     border-radius: 0px;
-    margin-left: 615px;
-    margin-top: 70px;
+    margin-left: 610px;
+    margin-top: 40px;
 
 
 }
@@ -97,7 +143,7 @@ hr{
     width: 33px;
     height:33px;
     margin-left: 0px;
-    margin-top: 455px;
+    margin-top: 70px;
     
 }
 
@@ -111,14 +157,23 @@ hr{
     letter-spacing: 0px;
     text-align: left;
     margin-left: 50px;
-    margin-top:  460px;
+    margin-top:  75px;
 }
 
 .phototext2{
+  display: block;  
   color:white;
   position: absolute;
   margin-left:140px;
-  margin-top:460px;
+  margin-top:75px;
+  opacity: 1;
+}
+.phototext2:hover{
+    color:#00FFF8;
+    opacity:1;
+    cursor:pointer;
 
 }
+
+
 
